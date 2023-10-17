@@ -1,0 +1,281 @@
+body{
+  margin-left:0;
+  
+}
+
+a:link {
+    color: #DDB65B;
+    text-decoration: none;
+    
+  }
+  
+  a:visited {
+    color: inherit;
+  }
+  
+  a:hover {
+   color: white;
+   font-style: italic;
+  }
+  
+  a:active {
+    color: white;
+  } 
+
+
+.navbar {
+    background-color: rgba(20, 39, 78, 1);
+    color: #DDB65B;
+    font-family: Bellefair;
+    position: fixed;
+
+        width: 100%;
+       z-index: 999;
+        transition: .6s;
+        margin-top: -10px;
+     
+   
+}
+
+
+
+.firstPartNavBar {
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Bellefair;
+
+}
+
+.secondPartNavBar {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-family: Bellefair;
+}
+
+
+#fond{
+    width:100%;
+}
+
+
+
+
+
+.conteneur4{
+  max-width: 50%;
+  max-height: 60%;
+  overflow: hidden;
+  margin: 50px auto;
+  box-shadow: 0px 0px 10px #777;
+}
+.d4{
+  width: 400%;
+  height: 0;
+  padding-top: 75%;
+  background-color: #EDEDED;
+  background-image: url("assets/Images/MergedImages.png");
+  background-size: contain;
+  animation: defilement2 40s linear infinite;
+}    
+@keyframes defilement2{
+  0%{transform: translate(0,0);}
+  100%{transform: translate(-75%,0);}
+}
+
+
+  .courbechampi {
+  
+    display: flex;
+    justify-content:center;
+
+  }
+
+  .intertitres {
+    text-align: center;
+    font-family: Bellefair;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgba(20, 39, 78, 1);
+  }
+
+
+
+ .quisommesnous, .noschampignons {
+display: flex;
+justify-content: space-evenly;
+gap:60px;
+font-family: Bellefair;
+font-size: 30px;
+color:  rgba(20, 39, 78, 1);;
+
+ }
+
+ .quisommesnous>img {
+  width:25%;
+  border-radius: 10%;
+  margin: 20px;
+ }
+
+
+ .noschampignons>img {
+  width:25%;
+  border-radius: 10%;
+  margin: 20px;
+ }
+ 
+
+
+
+ .innerflex1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ }
+
+ .bouton1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 216px;
+  height: 56px;
+  text-align: center;
+  border-radius: 12px;
+  color: #DDB65B;
+  font-family: Bellefair;
+  font-size: 30px;;
+
+  background: rgba(20, 39, 78, 1);;
+}
+
+.bouton1:hover {
+  opacity: .8;
+}
+
+.bouton1:visited {
+  color : #DDB65B;;
+
+}
+
+.espece1, .espece2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap:10px;
+  font-size: 30px;
+  color:rgba(20, 39, 78, 1);
+  
+} 
+
+
+.espece1>img {
+width:30%;
+}
+.espece2>img {
+  width:20%;
+  }
+
+  .description{
+    width:500px;
+  }
+
+.recettes{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Bellefair;
+  font-size: 30px;
+  color: rgba(20, 39, 78, 1);
+}
+
+  figure.meti{
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+  
+
+}
+
+.meti>a>img {
+ 
+  border-radius: 12%;
+  
+ 
+}
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
+
+.partenaires{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.partenaires>img {
+  width: 12% ;
+}
+
+.recette1, .recette3 {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Bellefair;
+  font-size: 30px;
+  color:  rgba(20, 39, 78, 1);
+  gap:60px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.recette2 {
+
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Bellefair;
+  font-size: 30px;
+  color:  rgba(20, 39, 78, 1);
+  gap:60px;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+.recette1>img {
+  width: 25%;
+  border-radius: 12px;
+}
+
+.recette2>img {
+  width: 25%;
+  border-radius: 12px;
+}
+
+.recette3>img {
+  width: 25%;
+  border-radius: 12px;
+}
+
+#fred1, #fred2, #fred3  {
+ padding-top: 80px;
+ margin-top: 0;
+}
+
+
+.footer {
+
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(20, 39, 78, 1);
+  color: #DDB65B;
+  font-weight: 50px;
+  padding: 20px;
+}
+
+
